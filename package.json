@@ -16,7 +16,7 @@
     "mongodb": "^3.6.4"
   },
   "scripts": {
-    "dev": "nodemon src/Database/mongoapi.js",
+    "dev": "node src/Database/mongoapi.js",
     "deploy": "gh-pages -d src"
   },
   "eslintConfig": {
