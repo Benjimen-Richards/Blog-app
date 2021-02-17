@@ -6,7 +6,7 @@ const collection_name = 'blog'
 const mongo = require("mongodb")
 const mongoClient = mongo.MongoClient
 // const mongourl = "mongodb://localhost:27017"
-const mongourl = "mongodb+srv://benjimen:richards@cluster0.36l95.mongodb.net/<dbname>?retryWrites=true&w=majority"
+const mongourl = require('../../url')
 let database
 
 app.use(session({
